@@ -6,6 +6,9 @@ $ sudo apt-get update
 
 **It looks like you’re running macOS, Linux, or another Unix-like OS. To download Rustup and install Rust, run the following in your terminal, then follow the on-screen instructions.**
 ```
+$ sudo apt install curl
+```
+```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 OR
